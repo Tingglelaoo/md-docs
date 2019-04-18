@@ -1,0 +1,23 @@
+{
+  "name": "make-md-docs",
+  "version": "1.0.0",
+  "description": "Use jsdoc2md to create  markdown docs by own templates",
+  "main": "index.js",
+  "scripts": {
+    "docs": "node cli/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.jd.com:litingting14/make-md-docs.git"
+  },
+  "keywords": [
+    "markdown",
+    "jsdocs"
+  ],
+  "author": "litingting14",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.1.2",
+    "jsdoc-to-markdown": "^4.0.1"
+  }
+}

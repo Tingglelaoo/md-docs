@@ -1,0 +1,38 @@
+# Demo API文档
+
+
+## 安装使用
+
+```sh
+$ npm i --save @xxx
+
+```
+
+```javascript
+import { fetchAdvData } from '@xxx'
+```
+
+---
+
+## API
+
+### 概览
+
+{{#docs}}
+{{#if index}}
+#### {{title}}
+
+| API 名称 | API 简介 |
+|---- | ---- |
+{{{index}}}
+{{/if}}
+{{/docs}}
+
+---
+
+{{#docs}}
+## {{title}}
+
+{{{intro}}}
+
+{{/docs}}
